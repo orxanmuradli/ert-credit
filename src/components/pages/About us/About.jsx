@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import our from "../../../assets/images/our.png";
 
@@ -11,8 +11,34 @@ import boy1 from "../../../assets/images/boy1.png";
 import insta2 from "../../../assets/images/insta2.png";
 import boy3 from "../../../assets/images/boy3.png";
 import tiktokzz from "../../../assets/images/tiktokzz.png";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
+  useEffect(() => {
+    const elements1 = document.querySelectorAll(
+      ".our-proces-left"
+    );
+  
+  
+    let tl = gsap.timeline();
+    elements1.forEach((item, index) => {
+      console.log(item);
+      tl.to(item, {
+        y: 0,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: item,
+          scrub: true,
+          end: "+=50",
+        },
+      });
+    });
+  })
+
+
+
   return (
     <section className="about-wrapper container">
       <div className="about-wrappers">

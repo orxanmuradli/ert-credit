@@ -1,11 +1,9 @@
 import React from "react";
 import "./Navbar.css";
 import ert from "../../assets/images/ert.png";
-import {onMousehandler} from "../Helper/onmouse"
-import {onMouseleave} from "../Helper/onmouseleave"
-
-
-
+import { onMousehandler } from "../Helper/onmouse";
+import { onMouseleave } from "../Helper/onmouseleave";
+import Burger from "./Burger";
 
 const Navbar = () => {
   return (
@@ -19,17 +17,53 @@ const Navbar = () => {
        */}
         <div className="slgljs">
           <div className="flexCenter h-menu">
-            <a href="/" onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>Home</a>
-            <a href="/about" onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>About Us</a>
-            <a href="/partnerships" onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>Partnerships</a>
-            <a href="/" onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>FAQs</a>
-            <a href="/contact"onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>Contact</a>
+            <a
+              href="/"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              Home
+            </a>
+            {/* { <Burger /> } */}
+
+            <a
+              href="/about"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              About Us
+            </a>
+            <a
+              href="/partnerships"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              Partnerships
+            </a>
+            <a
+              href="/"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              FAQs
+            </a>
+            <a
+              href="/contact"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              Contact
+            </a>
           </div>
 
-      
-
           <button className="button">
-            <a href="/contact"onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>Sign up</a>
+            <a
+              href="/contact"
+              onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}
+            >
+              Sign up
+            </a>
           </button>
         </div>
       </div>

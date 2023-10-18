@@ -252,7 +252,11 @@ font-size: 12px !important;
 
 }
 
+.hero-wrapper {
+  /* position: relative; */
 
+  height: 170vh;
+}
 }
 
 

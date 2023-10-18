@@ -1,14 +1,16 @@
 import React from "react";
 import "./Footer.css";
 import { useLocation } from "react-router-dom";
-import {onMousehandler} from "../Helper/onmouse"
-import {onMouseleave} from "../Helper/onmouseleave"
+import { onMousehandler } from "../Helper/onmouse";
+import { onMouseleave } from "../Helper/onmouseleave";
+import Burger from "../Header/Burger";
 
 const Footer = () => {
   const { pathname } = useLocation();
   console.log({ pathname });
   return (
     <section className="Footer-wrapper">
+
       {pathname !== "/contact" && (
         <div className="Footer-container">
           <div className="map-text">
@@ -39,12 +41,20 @@ const Footer = () => {
       </div>
 
       <div className="end-text">
-        <div className="footer-left"onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>
+        <div
+          className="footer-left"
+          onMouseEnter={onMousehandler}
+          onMouseLeave={onMouseleave}
+        >
           <span>ert.credit</span>
           <p>copyright @ert.credit 2021 reserved</p>
         </div>
 
-        <div className="footer-right" onMouseEnter={onMousehandler} onMouseLeave={onMouseleave}>
+        <div
+          className="footer-right"
+          onMouseEnter={onMousehandler}
+          onMouseLeave={onMouseleave}
+        >
           <a href="/">Home</a>
           <a href="/">About Us</a>
           <a href="/">Partnerships</a>

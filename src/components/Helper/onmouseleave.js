@@ -19,7 +19,7 @@ export const onMouseleave = () => {
   circleD.style.bottom = "0px";
   circleD.style.left = "0px";
   circleD.style.right = "0px";
-  circleD.style.transition = "150ms"
+  circleD.style.transition = "50ms"
   circleD.style.transitionTimingFunction = "ease"
 
   // circleD.style.transitionDelay = "30ms";
