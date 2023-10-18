@@ -1,0 +1,38 @@
+/* 
+.first_text_of_breadcrumb {
+  display: flex;
+  gap: 13.25px;
+  padding: 28px 0 0 0;
+}
+.first_text_of_breadcrumb a {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8d9195;
+}
+.last_text_of_breadrcrumb {
+  display: flex;
+  gap: 13.25px;
+}
+
+.last_text_of_breadrcrumb span {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.first_text_of_breadcrumb div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pathname_of_breadcrumb {
+  display: flex;
+  gap: 13.25px;
+} */

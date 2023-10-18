@@ -1,0 +1,716 @@
+.parterships-wrapper .container {
+}
+
+.parterships-container img {
+  width: 100%;
+  height: 380px;
+}
+
+.parterships-container {
+  position: relative;
+}
+
+.parterships-container h1 {
+  font-family: "Poppins";
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  position: absolute;
+  left: 130px;
+  top: 130px;
+}
+
+.parterships-container span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  left: 127px;
+  top: 214px;
+  width: 490px;
+}
+
+.Partner-wrapper {
+  margin-top: 135px;
+}
+.Partner-wrapper h2 {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+
+.Partner-wrapper span {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.Partner-wrapper p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Help-wrapper img {
+  width: 50px;
+  height: 50px;
+}
+
+.Help-wrapper span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 354px;
+  height: 84px;
+}
+
+.Help-texteria {
+  padding: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Help-wrapper {
+  width: 48%;
+  box-shadow: 0px 32px 100px -12px #0000000a;
+  margin-top: 25px;
+  display: flex;
+  gap: 40px;
+}
+.Help-wrapper-flexx {
+  margin: 20px auto;
+  width: 48%;
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+}
+.Help-wrapper-flexx span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 354px;
+  height: 112px;
+  display: flex;
+  gap: 40px;
+
+  box-shadow: 0px 32px 100px -12px #0000000a;
+}
+
+.Help-wrapper-flexx img {
+  width: 50px;
+  height: 50px;
+}
+
+.Partner-options {
+}
+
+.option-refellal {
+  margin-top: 135px;
+}
+
+.option-refellal p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.4em;
+  text-align: center;
+}
+
+.option-refellal span {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.refellals-card {
+  border: 2px solid #dfeef3;
+  opacity: 0.8;
+  background: linear-gradient(132deg, #fff 0%, #e9f3f5 99.21%);
+  backdrop-filter: blur(50px);
+  width: 23%;
+}
+
+.refellal-card {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  margin: 40px;
+}
+
+.refellals-card h3 {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.refellals-card span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 325px;
+}
+
+.Connect {
+}
+
+.Lets-Connect {
+}
+
+.Sign p {
+  color: #feb300;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 5.6px;
+  text-transform: uppercase;
+}
+
+.Sign span {
+  color: #242b31;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 125% */
+  letter-spacing: -1.2px;
+  display: flex;
+  justify-content: center;
+}
+
+.Sign {
+  margin-top: 135px;
+}
+
+.Connect-text {
+  padding: 90px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  border: 1px solid #e3f2f3;
+  margin-top: 80px;
+}
+
+.input-text-option p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.input-text-option span {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.input-text {
+  border-bottom: 1px solid #eeefef;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.input-text-option {
+  border-bottom: 1px solid #eeefef;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.input-text-options {
+  /* border-bottom: 1px solid  #EEEFEF;; */
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.input-text-options p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.chages-option {
+  width: 388px;
+}
+.input-text p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.input-text span {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.submit-now p {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.54px;
+}
+
+.submit-now {
+  width: 90%;
+  height: 55px !important;
+  background-color: #6ace80;
+  border: none;
+}
+
+.submit-now svg {
+  margin-right: 14px;
+  margin-top: 11px;
+}
+
+.text-area {
+  display: flex;
+  gap: 50px;
+}
+
+.select-options {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  width: 385px !important;
+  height: 34px !important;
+  margin-top: 16px;
+}
+
+.select-options span {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 123.077% */
+  letter-spacing: -0.13px;
+  padding: 8px 17px;
+}
+@media only screen and (max-width: 991px){
+  .text-area {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .parterships-container h1 {
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: 2px;
+  }
+
+  .h-container img{
+    margin-right: 0px;
+  }
+
+  .parterships-container span {
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    width: 90%;
+  }
+
+  .Partner-wrapper h2 {
+    font-size: 12px;
+  }
+
+  .Partner-wrapper span {
+    font-size: 28px;
+  }
+  .Partner-wrapper p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .Help-texteria {
+    
+    flex-direction: column;
+}
+.Help-wrapper span {
+
+    font-size: 12px;
+   
+     width: 100%; 
+ 
+}
+.Help-wrapper {
+  width: 100%;
+  box-shadow: 0px 32px 100px -12px #0000000a;
+ 
+  gap: 40px;
+}
+
+
+.Help-wrapper-flexx {
+  width: 100%;
+  /* display: block; */
+  /* gap: 40px; */
+  margin-top: 25px;
+  /* font-size: 10px; */
+}
+.Help-wrapper-flexx span {
+  
+    font-size: 12px;
+  
+    width: 100%;
+   
+}
+.option-refellal p {
+    
+    font-size: 12px;
+}
+
+.option-refellal span {
+   
+    font-size: 28px;
+   
+}
+
+.refellal-card {
+display: flex;
+  flex-direction: column;
+}
+.refellals-card h3 {
+   margin-left: 31px;
+    font-size: 20px;
+   
+}
+.refellals-card span {
+    font-size: 14px;
+    margin-left: 30px;
+  
+}
+.refellals-card {
+   
+     width: 100%; 
+}
+.refellals-card img{
+    margin-left: -56px;
+}
+.Sign p {
+ font-size: 12px;
+   
+}
+
+.Sign span {
+ font-size: 28px;
+  
+}
+
+.Connect-text {
+     padding: 0px; 
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.text-area {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+}
+
+
+@media only screen and (max-width: 550px) {
+  .parterships-container h1 {
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: 2px;
+  }
+  .text-area {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .h-container img{
+    margin-right: 0px;
+  }
+
+  .parterships-container span {
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    width: 90%;
+  }
+
+  .Partner-wrapper h2 {
+    font-size: 12px;
+  }
+
+  .Partner-wrapper span {
+    font-size: 28px;
+  }
+  .Partner-wrapper p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .Help-texteria {
+    
+    flex-direction: column;
+}
+.Help-wrapper span {
+
+    font-size: 12px;
+   
+     width: 100%; 
+ 
+}
+.Help-wrapper {
+  width: 100%;
+  box-shadow: 0px 32px 100px -12px #0000000a;
+ 
+  gap: 40px;
+}
+
+
+.Help-wrapper-flexx {
+  width: 100%;
+  /* display: block; */
+  /* gap: 40px; */
+  margin-top: 25px;
+  /* font-size: 10px; */
+}
+.Help-wrapper-flexx span {
+  
+    font-size: 12px;
+  
+    width: 172px;
+   
+}
+.option-refellal p {
+    
+    font-size: 12px;
+}
+
+.option-refellal span {
+   
+    font-size: 28px;
+   
+}
+
+.refellal-card {
+display: flex;
+  flex-direction: column;
+}
+.refellals-card h3 {
+   margin-left: 31px;
+    font-size: 20px;
+   
+}
+.refellals-card span {
+    font-size: 14px;
+    margin-left: 30px;
+  
+}
+.refellals-card {
+   
+     width: 100%; 
+}
+.refellals-card img{
+    margin-left: -56px;
+}
+.Sign p {
+ font-size: 12px;
+   
+}
+
+.Sign span {
+ font-size: 28px;
+  
+}
+
+.Connect-text {
+     padding: 0px; 
+    display: flex;
+    flex-direction: column;
+   
+}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+  .parterships-container h1 {
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: 2px;
+  }
+
+  .parterships-container span {
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    width: 90%;
+  }
+
+  .Partner-wrapper h2 {
+    font-size: 12px;
+  }
+
+  .Partner-wrapper span {
+    font-size: 28px;
+  }
+  .Partner-wrapper p {
+    font-size: 12px;
+    width: 301px;
+  }
+  .Help-texteria {
+    
+    flex-direction: column;
+}
+.Help-wrapper span {
+
+    font-size: 12px;
+   
+     width: 100%; 
+ 
+}
+.Help-wrapper {
+    width: 100%; 
+    box-shadow: 0px 32px 100px -12px #0000000a;
+    /* margin-top: 25px; */
+     display: block; 
+    gap: 40px;
+}
+.Help-wrapper-flexx {
+
+     width: 100%; 
+    display: block; 
+    /* gap: 40px; */
+    margin-top: 25px;
+}
+.Help-wrapper-flexx span {
+  
+    font-size: 12px;
+  
+    width: 172px;
+   
+}
+.option-refellal p {
+    
+    font-size: 12px;
+}
+
+.option-refellal span {
+   
+    font-size: 28px;
+   
+}
+
+.refellal-card {
+display: flex;
+  flex-direction: column;
+}
+.refellals-card h3 {
+   margin-left: 31px;
+    font-size: 20px;
+   
+}
+.refellals-card span {
+    font-size: 14px;
+    margin-left: 30px;
+  
+}
+.refellals-card {
+   
+     width: 100%; 
+}
+.refellals-card img{
+    margin-left: -56px;
+}
+.Sign p {
+ font-size: 12px;
+   
+}
+
+.Sign span {
+ font-size: 28px;
+  
+}
+
+.Connect-text {
+     padding: 0px; 
+    display: flex;
+    flex-direction: column;
+   
+}
+.text-area {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+}

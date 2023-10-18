@@ -1,0 +1,606 @@
+.contact-wrapper .container {
+}
+
+.contact-container {
+  position: relative;
+}
+.contact-container img {
+  width: 100%;
+  height: 380px;
+}
+
+.contact-container h1 {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 133.333% */
+  letter-spacing: -1.8px;
+  position: absolute;
+  top: 115px;
+  left: 100px;
+}
+.kafas {
+  display: flex;
+  padding: 75px 75px 0 75px;
+  justify-content: space-around;
+}
+
+.contact-container span {
+  color: #474d54;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  position: absolute;
+  top: 190px;
+  left: 100px;
+  width: 516px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #eeefef;
+  padding-bottom: 11px;
+  width: 228px;
+}
+
+.Contact-text {
+  padding: 90px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  border: 1px solid #e3f2f3;
+  margin-top: 80px;
+}
+
+.contact-page {
+  display: flex;
+  gap: 50px;
+}
+
+.naming label {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+.naming-2 {
+  margin-top: 30px;
+}
+.naming-3 {
+  margin-top: 30px;
+}
+
+.naming-3 label {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+.naming-3 ::placeholder {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.naming-5 {
+  margin-top: 30px;
+}
+.naming-5 label {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.naming-5 ::placeholder {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+.naming-4 label {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.naming-4 ::placeholder {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+.naming-2 label {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.naming-2 ::placeholder {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.naming ::placeholder {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.span-text {
+  border-bottom: 1px solid #eeefef;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.span-text p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.span-text span {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.contact-option {
+  width: 388px;
+}
+
+.contact-text-option {
+  border-bottom: 1px solid #eeefef;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.contact-text-option p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.contact-text-option span {
+  color: #9a9ea1;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  letter-spacing: -0.16px;
+}
+
+.bottomsside {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.button-send {
+  width: 64%;
+  height: 55px !important;
+  background-color: #6ace80;
+  border: none;
+  margin-top: 41px;
+}
+
+.button-send p {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.54px;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-form{
+    padding: 50px;
+}
+.contact-general {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 44px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contact-left {
+}
+
+.contact-right {
+}
+
+.contact-left span {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.contact-right span {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+}
+
+.contact-icon {
+  background: #f3f3f3;
+  margin-top: 16px;
+  width: 335px !important;
+  height: 34px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-icon p {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+  padding: 8px 3px;
+}
+
+.contact-icon svg {
+  color: #242b31;
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 123.077% */
+  letter-spacing: -0.13px;
+  margin-top: 13px;
+  margin-right: 12px;
+}
+
+.form {
+  border: 6px solid #ebeef0;
+}
+
+.naming-3 {
+  width: 77%;
+  margin: 0 auto;
+  padding: 0px 75px;
+  margin-top: 30px;
+}
+
+.naming-3 input {
+  width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+  .form-form {
+    padding: 0px;
+  }
+  .contact-general {
+   gap: 0px;
+ 
+}
+}
+
+@media only screen and (max-width: 768px){
+  .contact-container h1 {
+    font-size: 30px;
+    top: 70px;
+    left: 22px;
+}
+
+
+
+.contact-container span {
+  font-size: 12px;
+  top: 141px;
+  left: 22px;
+  width: 295px;
+}
+
+.contact-container img {
+
+  height: 250px;
+}
+input {
+
+  width: 100%;
+}
+
+.kafas {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 0px 0 21px;
+}
+.contact-general {
+  display: flex;
+ flex-direction: column;
+}
+
+
+
+.form-form {
+  padding: 0px;
+}
+.naming-3 {
+ width: 100%;
+  margin: 0 22px;
+  padding: 0px;
+ 
+}
+
+.contact-icon {
+width: 90% !important;
+margin-left: 20px;
+}
+
+.contact-left span {
+
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.contact-right span {
+font-size: 14px;
+margin-left: 20px;
+}
+.button-send {
+  width: 90%;
+
+}
+.Footer-container {
+  gap: 20px;
+  
+}
+
+  .map-text span {
+  
+    margin-left: -12px;
+}
+.map-lorem {
+  
+  /* margin-left: -27px; */
+}
+}
+
+
+@media only screen and (max-width: 550px) {
+  .contact-container h1 {
+    font-size: 30px;
+    top: 70px;
+    left: 22px;
+}
+
+
+
+.contact-container span {
+  font-size: 12px;
+  top: 141px;
+  left: 22px;
+  width: 295px;
+}
+
+.contact-container img {
+
+  height: 250px;
+}
+input {
+
+  width: 100%;
+}
+
+.kafas {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 0px 0 21px;
+}
+.contact-general {
+  display: flex;
+ flex-direction: column;
+}
+
+
+
+.form-form {
+  padding: 0px;
+}
+.naming-3 {
+ width: 100%;
+  margin: 0 22px;
+  padding: 0px;
+ 
+}
+
+.contact-icon {
+width: 90% !important;
+margin-left: 20px;
+}
+
+.contact-left span {
+
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.contact-right span {
+font-size: 14px;
+margin-left: 20px;
+}
+.button-send {
+  width: 90%;
+
+}
+.Footer-container {
+  gap: 20px;
+  
+}
+
+  .map-text span {
+  
+    margin-left: 55px;
+}
+.map-lorem {
+  
+  /* margin-left: -27px; */
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .contact-container h1 {
+    font-size: 30px;
+    top: 70px;
+    left: 22px;
+}
+
+
+
+.contact-container span {
+  font-size: 12px;
+  top: 141px;
+  left: 22px;
+  width: 295px;
+}
+
+.contact-container img {
+
+  height: 250px;
+}
+input {
+
+  width: 100%;
+}
+
+.kafas {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 0px 0 21px;
+}
+.contact-general {
+  display: flex;
+ flex-direction: column;
+}
+
+
+
+.form-form {
+  padding: 0px;
+}
+.naming-3 {
+ width: 100%;
+  margin: 0 22px;
+  padding: 0px;
+ 
+}
+
+.contact-icon {
+width: 90% !important;
+margin-left: 20px;
+}
+
+.contact-left span {
+
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.contact-right span {
+font-size: 14px;
+margin-left: 20px;
+}
+.button-send {
+  width: 90%;
+
+}
+.Footer-container {
+  gap: 20px;
+  margin-right: 23px;}
+
+  .map-text span {
+  
+    margin-left: -21px;
+}
+.map-lorem {
+  
+  margin-left: -27px;
+}
+}

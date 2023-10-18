@@ -1,0 +1,77 @@
+.circleMain {
+  width: 12px;
+  height: 12px;
+  border-radius: 0% 100%  ;
+  border: 2px solid black !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.1s;
+  z-index: 999;
+  display: block;
+  pointer-events: none;
+}
+
+
+
+/* .circleEl {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  pointer-events: none;
+  z-index: 999;
+  transition: 0.1s;
+  -webkit-animation: example 6s linear infinite;
+  animation: example 6s linear infinite;
+} */
+
+
+.tempcss{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: -13px;
+  top: -13px;
+}
+
+.circleMaintwo {
+  border: 2px solid #171b22;
+}
+.circleEltwo svg path {
+  fill: #171b22;
+}
+.circlehovertwo {
+  background-color: #171b22;
+}
+
+/* .defcss{
+  width: 100%;
+  border: 3px solid transparent;
+  border-radius: 0%;
+  border-top: 3px solid #69A2B1;
+  border-bottom: 3px solid #69A2B1;
+  border-right: 3px solid #242B31;
+  border-left: 3px solid #474D54;
+  width: 33px;
+  height: 33px;
+  animation: spin 6s linear infinite;
+} */
+
+.hovercss{
+  width: 100%;
+  border: 3px solid #7cfc00;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,320 @@
+.hero-wrapper {
+  /* position: relative; */
+  padding-bottom: 2rem;
+  height: 150vh;
+}
+
+.wrapper {
+  position: relative;
+}
+.hero-container {
+  gap: 80px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.img-container {
+  height: 492.04px;
+  top: 274px;
+  left: 802px;
+  border: 1px;
+
+  /* overflow: hidden;
+    border-radius: 46px */
+}
+
+.img-container img {
+  width: 100%;
+  height: 492px;
+  object-fit: cover;
+  margin-top: 53px;
+}
+.hero-left {
+  width: 50%;
+}
+.hero-right {
+  width: 40%;
+}
+/* .hero-left img{
+    width: 1330px;
+    height: 380px;
+    top: 96px;
+    left: 55px;
+    
+} */
+
+.hero-tittle h1 {
+  color: #242b31;
+  font-family: "Poppins";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 133.333% */
+  letter-spacing: -1.8px;
+}
+
+.hero-tittle div {
+  color: #474d54;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.button-aply {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+ 
+}
+.button-aply button {
+  width: 165px;
+  height: 54px;
+  flex-shrink: 0;
+  background: #6ace80;
+  box-shadow: 0px 15px 50px -21px rgba(89, 173, 108, 0.6);
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.54px;
+  border: none;
+}
+
+
+
+.button-play {
+  color: #242b31;
+  display: flex;
+
+}
+
+.button-play div {
+  color: #1d1e20;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 100% */
+  letter-spacing: -0.54px;
+  margin-top: 25px;
+  margin-left: -27px;
+}
+
+@media only screen and (max-width: 1150px) {
+}
+
+/* @media only screen and (max-width: 991px) {
+  .img-container img {
+    width: 104%;
+  }
+} */
+
+/* @media only screen and (max-width: 550px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-left{
+    width: 100%;
+  }
+  .hero-right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .h-menu{
+    display: none !important;
+  }
+
+  .hero-tittle h1 {
+
+    font-size: 30px;
+   
+}
+
+.hero-tittle div {
+
+  font-size: 12px;
+
+}
+.button-aply button {
+  width: 90px !important;
+}
+
+.button-aply button {
+font-size: 12px !important;
+}
+
+.img-container img {
+  width: 100%;
+  height: 342px;
+
+}
+
+} */
+@media only screen and (max-width: 991px){
+  .hero-tittle h1 {
+  
+    font-size: 42.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56.667px; /* 133.333% */
+    letter-spacing: -1.275px;
+    width: 386px;
+}
+
+.hero-tittle div {
+
+font-size: 11.333px;
+width: 296px;
+font-weight: 400;
+line-height: 19.833px; /* 175% */
+}
+
+.button-aply button {
+  width: 116px;
+  height: 38px;
+  font-size: 12px;
+
+}
+.button-aply {
+  
+  gap: 0;
+}
+.button-play div {
+font-size: 12px;
+ margin-top: 13px;
+
+}
+.button-play svg{
+  margin-top: -11px;
+}
+.img-container img {
+  width: 286px;
+  height: 300px;
+
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-left{
+    width: 100%;
+  }
+  .hero-right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-text {
+
+    width: 100%; 
+}
+
+
+  .h-menu{
+    display: none !important;
+  }
+
+  .hero-tittle h1 {
+
+    font-size: 30px;
+   
+}
+
+.hero-tittle div {
+
+  font-size: 12px;
+
+}
+.button-aply button {
+  width: 90px !important;
+}
+
+.button-aply button {
+font-size: 12px !important;
+}
+
+
+.img-container img {
+  width: 100%;
+  margin-top: -128px;
+
+}
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+  .img-container img {
+    width: 100%;
+    margin-top: -128px;
+
+}
+.map-text span {
+  
+  margin-left: 90px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-left{
+    width: 100%;
+  }
+  .hero-right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .h-menu{
+    display: none !important;
+  }
+
+  .hero-tittle h1 {
+
+    font-size: 30px;
+   
+}
+
+.hero-tittle div {
+
+  font-size: 12px;
+
+}
+.button-aply button {
+  width: 90px !important;
+}
+
+.button-aply button {
+font-size: 12px !important;
+}
+
+.img-container img {
+  width: 100%;
+  height: 342px;
+  margin-top: -93px;
+}
+
+
+}

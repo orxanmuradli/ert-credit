@@ -1,0 +1,111 @@
+.Faqs-Wrapper {
+  padding: 55px;
+
+  margin-top: 140px;
+}
+
+.faqscontainer {
+  background-color: #eceff1;
+  text-align: center;
+}
+
+.faqscontainer h1 {
+  color: #242b31;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 100% */
+  letter-spacing: -1.5px;
+}
+
+.faqscontainer span {
+  color: #598a97;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 5.6px;
+}
+.Faqs-container img {
+  margin-top: 100px;
+}
+
+.wrapper-textssss {
+  padding: 57px 0px 0px 50px;
+  height: 1000px;
+}
+@media only screen and (max-width: 991px){
+  .faqscontainer h1 {
+   font-size: 35px;
+  }
+  .faqscontainer span {
+   font-size: 9px;
+}
+.Faqs-Wrapper {
+  padding: 25px;
+
+}
+
+.wrapper-textssss {
+  padding: 56px 58px 85px 50px;
+   height: 100%; 
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper-textssss {
+    padding: 59px 7px 49px 18px;
+    height: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+  .faqscontainer h1 {
+    font-size: 28px;
+  }
+  .wrapper-textssss {
+    padding: 41px 17px 35px 16px;
+    height: 100%;
+
+}
+
+  .faqscontainer span {
+    font-size: 12px;
+  }
+  .Faqs-Wrapper {
+    padding: 20px;
+    margin-top: 140px;
+  }
+  
+}
+
+
+
+
+@media only screen and (max-width: 550px){
+  .faqscontainer h1 {
+    font-size: 28px;
+  }
+  .wrapper-textssss {
+    padding: 41px 17px 35px 16px;
+    height: 100%;
+
+}
+
+  .faqscontainer span {
+    font-size: 12px;
+  }
+  .Faqs-Wrapper {
+    padding: 20px;
+    margin-top: 140px;
+  }
+}
+

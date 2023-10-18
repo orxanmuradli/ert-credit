@@ -1,0 +1,25 @@
+/* .meqale_btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.green_btn {
+  color: #7cfc00;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Lexend";
+  background: none;
+  border: none;
+}
+
+.svg_of_article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meqale_btn:hover .svg_of_article {
+  transform: rotate(45deg);
+  transition: 0.3s;
+} */

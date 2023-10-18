@@ -1,0 +1,208 @@
+.accordion {
+  width: 1144px;
+  transition: height 0.3s linear, background-color 0.3s linear;
+  border-radius: 24px;
+  background-color: var(--color-faqBg);
+  transition: 200ms ease-out;
+}
+
+.accordionHeader {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: space-between; */
+  padding: 28px 20px;
+}
+
+.accordionHeader h2 {
+  /* color: var(--color-backgroundHover);
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px; */
+  color: #242b31;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.commited_section {
+}
+.accordionContent {
+  height: 0;
+  display: flex;
+  align-items: center;
+}
+
+.accordion.open {
+  transition: height 0.3s linear, background-color 0.3s linear;
+  height: 140px;
+  color: var(--color-backgroundHover);
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.accordionHeader.open h2 {
+  color: var(--color-backgroundHover);
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.bar {
+  width: 24px;
+  border-radius: 2px;
+  height: 2px;
+  background-color: var(--color-backgroundHover);
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.bar:nth-child(2) {
+  transform: rotate(90deg) translate(-7px, 0px);
+}
+.close:nth-child(1) {
+  background-color: var(--color-backgroundHover);
+  transform: rotate(45deg) translate(5px, 0px);
+}
+
+.close:nth-child(2) {
+  background-color: var(--color-backgroundHover);
+  transform: rotate(-45deg) translate(5px, 0px);
+}
+.accordionContentp {
+  /* color: #6f7378;
+  font-family: "Be Vietnam Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 50px 20px 0 20px; */
+  color: #595d63;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 178.571% */
+}
+.accordionContent.open {
+  transition: height 0.3s linear, background-color 0.3s linear;
+  height: 140px;
+  background-color: #032353;
+}
+.accordionContent_svg {
+  margin: 0 8px 0 20px;
+}
+
+.accordionContent_svg svg path {
+  fill: white;
+}
+
+.burgerIcon {
+  padding: 5px;
+}
+/* .cursor { 
+    cursor: pointer; 
+  } */
+.commited_section {
+  display: flex;
+}
+.accordion {
+  background: #fff;
+
+  margin-bottom: 10px;
+}
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.jaf {
+  display: flex;
+  gap: 10px;
+}
+
+.jaf p {
+  /* background: linear-gradient(0deg, #6FA8B6, #6FA8B6),
+  linear-gradient(0deg, #ECEFF1, #ECEFF1); */
+  padding: 12px;
+  background: #eceff1;
+  width: 39px;
+  height: 39px;
+  border-radius: 32.59px;
+
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: -7px;
+
+}
+ @media screen and (max-width: 1250px) {
+  .accordion {
+    width: 830px;
+  }
+}
+ @media screen and (max-width: 991px) {
+  .accordion {
+    width: 100%;
+    height: 110px !important;
+  }
+  .accordionContentp {
+    padding: 60px 20px 0 20px;
+  }
+  .accordion.open {
+    height: 250px !important;
+  }
+  .accordionHeader {
+    padding: 48px 20px;
+    display: flex;
+   
+  }
+
+}
+
+/* @media screen and (max-width: 768px) {
+  .accordionHeader.open h2 {
+    font-size: 15px;
+  }
+  .accordionHeader h2 {
+    font-size: 15px;
+  }
+  .accordionContentp {
+    font-size: 12px;
+    padding: 75px 20px 0 20px;
+  }
+} */
+
+@media screen and (max-width: 550px) {
+  .accordionHeader h2 {
+    font-size: 12px;
+  }
+  .accordionHeader.open h2 {
+    font-size: 12px;
+  }
+  .accordionContentp {
+    padding: 126px 20px 0 20px;
+  }
+}  
+
+@media only screen and (max-width: 375px) {
+  .accordionHeader h2 {
+   
+    font-size: 16px;
+    
+  }
+}
+
+
+
+
+

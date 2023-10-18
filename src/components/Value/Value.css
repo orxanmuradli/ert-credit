@@ -1,0 +1,463 @@
+.v-container .img-container {
+  width: 427px;
+  height: 473px;
+
+  border-radius: 220px, 220px, 0px, 0px;
+}
+
+.v-wrapper {
+  padding: 55px;
+}
+.v-container div {
+  flex: 1;
+}
+
+.v-right {
+  gap: 0.5rem;
+}
+
+.v-right h1 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.v-right span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.v-right-v-text h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #1e88a4;
+}
+
+.v-right-v-text span {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757a7e;
+}
+.img_container {
+  background-image: url(../../assets/images/esas.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 427px;
+  height: 473px;
+  position: relative;
+}
+
+.v-right-v h1 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #242b31;
+}
+
+.v-right-v span {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757a7e;
+}
+.alnfa {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.ajdbf {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.ajb {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.ajb span {
+  margin-top: 20px;
+}
+
+.img2{
+    position: absolute;
+    top: 20px;
+    left: 154px;
+  
+}
+
+.img3{
+    position: absolute;
+    top: 70px;
+    left: 315px;
+}
+
+.img4{
+    position: absolute;
+    top: 118px;
+    left: -43px;
+}
+
+
+.img5{
+    position: absolute;
+    top: 132px;
+    left: 103px;
+}
+
+
+.img6{
+    position: absolute;
+    top: 165px;
+    left: 250px
+}
+
+.img7{
+    position: absolute;
+    top: 243px;
+    left: -81px;
+}
+
+
+.img8{
+    position: absolute;
+    top: 284px;
+    left: 130px;
+}
+
+.img9{
+    position: absolute;
+    top: 281px;
+    left: 302px;
+}
+
+.img10{
+    position: absolute;
+    top: 336px;
+    left: 0px; 
+}
+
+
+.img11{
+    position: absolute;
+    top: 392px;
+    left: 194px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .v-wrapper {
+     padding: 1px; 
+  }
+}
+
+
+
+@media only screen and (max-width: 375px){
+  .v-right h1 {
+ 
+    font-size: 28px;
+    width: 252px;
+   
+}
+
+.img_container img{
+  width: 100%;
+  margin-left: -47px;
+}
+
+
+
+.v-right span {
+
+  font-size: 12px;
+  
+}
+.v-right-v-text h1 {
+ 
+  font-size: 22px;
+
+}
+.v-right-v-text span {
+
+  font-size: 11px;
+ 
+}
+.v-right-v h1 {
+
+  font-size: 12px;
+
+}
+.v-right-v span {
+  font-size: 11px;
+  
+}
+.v-right-v{
+  margin-top: 15px;
+}
+.v-container div {
+  flex: none;
+  
+}
+.v-left{
+width: 90%;
+padding: 0px 30px;
+}
+
+.img1 {
+  position: absolute;
+  top: -20px;
+  left: 22px;
+}
+
+.img2 {
+  position: absolute;
+  top: -3px;
+ 
+  width: 148px;
+}
+.img3 {
+  position: absolute;
+  top: 6px;
+  left: 219px;
+  width: 200px;
+}
+.img4 {
+  position: absolute;
+  top: 118px;
+  left: -1px;
+}
+
+.img6 {
+  position: absolute;
+  top: 172px;
+  left: 238px;
+  width: 125px;
+}
+.img7 {
+  position: absolute;
+  top: 207px;
+  left: -38px;
+}
+.img8 {
+  position: absolute;
+  top: 255px;
+  left: 94px;
+}
+.img9 {
+  position: absolute;
+  top: 277px;
+  left: 219px;
+  width: 152px;
+}
+
+.img10 {
+  position: absolute;
+  top: 340px;
+  left: 16px;
+}
+
+.img11 {
+  position: absolute;
+  top: 401px;
+  left: 167px;
+  width: 140px;
+
+}
+.img_container {
+  width: 308px;
+  height: 447px;
+  margin-left: -30px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 550px){
+  .v-right h1 {
+ 
+    font-size: 28px;
+    width: 252px;
+   
+}
+
+.v-right span {
+
+  font-size: 12px;
+  
+}
+.v-right-v-text h1 {
+ 
+  font-size: 22px;
+
+}
+.v-right-v-text span {
+
+  font-size: 11px;
+ 
+}
+.v-right-v h1 {
+
+  font-size: 12px;
+
+}
+.v-right-v span {
+  font-size: 11px;
+  
+}
+.v-right-v{
+  margin-top: 15px;
+}
+.v-container div {
+  flex: none;
+}
+.v-left{
+width: 90%;
+padding: 0px 30px;
+}
+
+.img1 {
+  position: absolute;
+  top: -20px;
+  left: 22px;
+}
+
+.img2 {
+  position: absolute;
+  top: -3px;
+ 
+  width: 148px;
+}
+.img3 {
+  position: absolute;
+  top: 6px;
+  left: 219px;
+  width: 200px;
+}
+.img4 {
+  position: absolute;
+  top: 118px;
+  left: -1px;
+}
+
+.img6 {
+  position: absolute;
+  top: 172px;
+  left: 238px;
+  width: 125px;
+}
+.img7 {
+  position: absolute;
+  top: 207px;
+  left: -38px;
+}
+.img8 {
+  position: absolute;
+  top: 255px;
+  left: 94px;
+}
+.img9 {
+  position: absolute;
+  top: 277px;
+  left: 219px;
+  width: 152px;
+}
+
+.img10 {
+  position: absolute;
+  top: 340px;
+  left: 16px;
+}
+
+.img11 {
+  position: absolute;
+  top: 401px;
+  left: 167px;
+  width: 140px;
+
+}
+.img_container {
+  width: 308px;
+  height: 447px;
+  margin-left: -30px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 991px){
+  .v-right h1 {
+   width: 257px !important;
+    font-size: 28px;
+ 
+}
+
+.v-right span {
+  width: 318px;
+  font-size: 11px;
+
+}
+
+.v-right-v-text h1 {
+ 
+  font-size: 21px;
+
+}
+
+.v-right-v-text span {
+  
+  font-size: 9px;
+
+}
+
+.v-right-v span {
+
+  font-size: 9px;
+
+}
+}
+
+
+@media only screen and (max-width: 768px){
+ 
+}
+
+
+
+@media screen and (min-width: 280px) {
+  .img_container {
+    transition: all 0.6s linear;
+    transform: translateY(50px);
+  }
+  .ajb {
+    transition: all 0.6s linear;
+    transform: translateY(50px);
+  }
+}
