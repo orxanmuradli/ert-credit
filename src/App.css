@@ -42,8 +42,7 @@ a {
   row-gap: 2rem;
   justify-content: center;
   align-items: center;
-  /* gap: 165px; */
-  /* flex-wrap: wrap; */
+ 
 }
 
 .flexStart {

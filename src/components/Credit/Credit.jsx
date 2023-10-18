@@ -1,24 +1,19 @@
-
 import "./Credit.css";
 import calc from "../../assets/icons/calc.png";
 import calc5 from "../../assets/icons/calc5.png";
 import calc3 from "../../assets/icons/calc3.png";
 import calc6 from "../../assets/icons/calc6.png";
 import React, { useEffect } from "react";
-import {gsap} from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger); 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Credit = () => {
   useEffect(() => {
-    const elements1 = document.querySelectorAll(
-      ".credit-start"
-    );
-    const elements2 = document.querySelectorAll(
-      ".credit-text"
-    );
-  
-   
+    const elements1 = document.querySelectorAll(".credit-start");
+    const elements2 = document.querySelectorAll(".credit-text");
+
     let tl = gsap.timeline();
     elements1.forEach((item, index) => {
       console.log(item);
@@ -44,7 +39,7 @@ const Credit = () => {
         },
       });
     });
-  })
+  });
   return (
     <section className="Credit-wrapper">
       <div className="credit-start">

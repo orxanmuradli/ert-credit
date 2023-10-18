@@ -12,9 +12,11 @@ import boy4 from "../../assets/images/boy4.png"
 import facelogo from "../../assets/images/facelogo.png"
 import masks from "../../assets/images/masks.png"
 import tiktokzz from "../../assets/images/tiktokzz.png"
-import {gsap} from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger); 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 // import boy5 from "../../assets/images/boy5.png"
 const Value = () => {
   useEffect(() => {

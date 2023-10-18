@@ -2,10 +2,10 @@
 import React, { useEffect } from "react";
 import "./Document.css";
 import document1 from "../../assets/icons/document1.png";
-import {gsap} from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger); 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 const Document = () => {
   useEffect(() => {
     const elements1 = document.querySelectorAll(
