@@ -28,7 +28,6 @@ const App = () => {
    <Document/>
    <Faqs/> */}
 
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -36,7 +35,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
     </div>
   );
 };

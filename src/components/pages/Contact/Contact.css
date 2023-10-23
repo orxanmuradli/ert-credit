@@ -468,11 +468,11 @@ input {
 
   width: 100%;
 }
-
 .kafas {
   display: flex;
   flex-direction: column;
-  padding: 75px 0px 0 21px;
+  padding: 75px 179px 0 21px;
+
 }
 .contact-general {
   display: flex;
@@ -505,6 +505,7 @@ margin-left: 20px;
 .contact-right span {
 font-size: 14px;
 margin-left: 20px;
+
 }
 .button-send {
   width: 90%;
@@ -523,6 +524,31 @@ margin-left: 20px;
   
   /* margin-left: -27px; */
 }
+.naming-3 label {
+ 
+  padding-right: 395px;
+}
+.naming-4 label {
+
+  font-size: 15px;
+ 
+}
+.contact-left span {
+  font-size: 14px;
+  margin-left: 20px;
+
+}
+.naming-2 label {
+  padding-right: 208px;
+}
+.naming label {
+
+ 
+}
+.naming-5 label {
+ 
+
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -532,13 +558,34 @@ margin-left: 20px;
     left: 22px;
 }
 
-
-
+.naming-3 label {
+ 
+  padding-right: 225px;
+}
+.naming-4 label {
+ 
+ 
+  font-size: 15px;
+ 
+}
+.contact-left span {
+  font-size: 14px;
+  margin-left: 20px;
+padding-right: 64px;
+}
+.naming-2 label {
+ padding-right: 40px;
+}
 .contact-container span {
   font-size: 12px;
   top: 141px;
   left: 22px;
   width: 295px;
+}
+
+.naming label {
+
+  padding-right: 40px;
 }
 
 .contact-container img {
@@ -553,7 +600,8 @@ input {
 .kafas {
   display: flex;
   flex-direction: column;
-  padding: 75px 0px 0 21px;
+  padding: 75px 179px 0 21px;
+
 }
 .contact-general {
   display: flex;
@@ -575,13 +623,10 @@ input {
 .contact-icon {
 width: 90% !important;
 margin-left: 20px;
+
 }
 
-.contact-left span {
 
-  font-size: 14px;
-  margin-left: 20px;
-}
 
 .contact-right span {
 font-size: 14px;

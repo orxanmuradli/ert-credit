@@ -4,9 +4,9 @@
   height: 150vh;
 }
 
-.wrapper {
+/* .wrapper {
   position: relative;
-}
+} */
 .hero-container {
   gap: 80px;
   align-items: flex-start;

@@ -18,15 +18,75 @@ gsap.registerPlugin(ScrollTrigger);
 const About = () => {
   useEffect(() => {
     const elements1 = document.querySelectorAll(
-      ".our-proces-left"
+      ".about-start-left"
+    );
+   
+    const elements2 = document.querySelectorAll(
+      ".about-start-right"
+    );
+   
+    const elements3 = document.querySelectorAll(
+      ".about-start-right"
+    );
+  
+ // Create a GSAP timeline
+let tl = gsap.timeline();
+
+// Define animations for elements1 coming from the left
+elements1.forEach((item, index) => {
+  console.log(item);
+  tl.from(item, {
+    x: +100,// Animate from the left side
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: item,
+      start: "top center",
+     
+      end: "+=100",
+    },
+  });
+});
+
+// Define animations for elements2 coming from the right
+elements2.forEach((item, index) => {
+  console.log(item);
+  tl.from(item, {
+    x: window.innerWidth + 100, // Animate from the right side
+    stagger: 0.2,
+    scrollTrigger: {
+      trigger: item,
+      start: "top center",
+   
+      end: "+=100",
+    },
+  });
+});
+  })
+  useEffect(() => {
+    const elements1 = document.querySelectorAll(
+      ".about-start-right"
     );
   
   
+    // let tl = gsap.timeline();
+    // elements1.forEach((item, index) => {
+    //   console.log(item);
+    //   tl.to(item, {
+    //     x: 50 ,
+    //     stagger: 0.2,
+    //     scrollTrigger: {
+    //       trigger: item,
+    //       scrub: true,
+    //       end: "+=50",
+    //     },
+    //   });
+    // });
+    
     let tl = gsap.timeline();
     elements1.forEach((item, index) => {
       console.log(item);
       tl.to(item, {
-        y: 0,
+        x: 50 ,
         stagger: 0.2,
         scrollTrigger: {
           trigger: item,
@@ -35,6 +95,8 @@ const About = () => {
         },
       });
     });
+   
+ 
   })
 
 

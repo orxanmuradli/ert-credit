@@ -846,9 +846,12 @@
 
 
 @media screen and (min-width: 280px) {
-  .text-text-1 {
+  .about-start-left {
     transition: all 0.6s linear;
     transform: translateY(50px);
   }
- 
+  .about-start-right{
+    transition: all 0.6s linear;
+    transform: translateY(50px);
+  }
 }

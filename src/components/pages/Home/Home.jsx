@@ -17,8 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
-
-
+  
 
 
 
