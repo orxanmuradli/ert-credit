@@ -56,7 +56,7 @@ const Document = () => {
         scrollTrigger: {
           trigger: item,
           scrub: true,
-          end: "+=50",
+          end: "+=100",
         },
       });
     });
@@ -68,7 +68,7 @@ const Document = () => {
         scrollTrigger: {
           trigger: item,
           scrub: true,
-          end: "+=50",
+          end: "+=100",
         },
       });
     });

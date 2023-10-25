@@ -279,13 +279,13 @@
     transition: all 0.5s linear;
     transform: translateY(100px);
   }
-  .cart3 {
+  .Cart3 {
     transition: all 0.5s linear;
-    transform: translateY(150px);
+    transform: translateY(100px);
   } 
-  .cart4 {
+  .Cart4 {
     transition: all 0.5s linear;
-    transform: translateY(150px);
+    transform: translateY(100px);
   } 
   .D-container {
     transition: all 0.5s linear;

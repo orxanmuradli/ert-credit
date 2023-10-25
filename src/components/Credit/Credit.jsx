@@ -6,6 +6,8 @@ import calc6 from "../../assets/icons/calc6.png";
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { onMousehandler } from "../Helper/onmouse";
+import { onMouseleave } from "../Helper/onmouseleave";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,8 +49,9 @@ const Credit = () => {
         <span>How Does it Work?</span>
       </div>
       <div className="paddings innerWidth flexCenter credit-container content-calc">
-        <div className="credit-text">
-          <img src={calc} alt="calc" />
+        <div className="credit-text" onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}>
+          <img src={calc} alt="calc"  />
           <h1>Data Gathering</h1>
           <span>
             Use our secure webform to upload your PPP loan documents, share
@@ -56,7 +59,8 @@ const Credit = () => {
           </span>
         </div>
 
-        <div className="credit-text">
+        <div className="credit-text" onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}>
           <img src={calc5} alt="calc" />
           <h1>Credit Calculation</h1>
           <span>
@@ -65,7 +69,8 @@ const Credit = () => {
           </span>
         </div>
 
-        <div className="credit-text">
+        <div className="credit-text" onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}>
           <img src={calc3} alt="calc" />
           <h1>Amending Returns</h1>
           <span>
@@ -75,7 +80,8 @@ const Credit = () => {
           </span>
         </div>
 
-        <div className="credit-text">
+        <div className="credit-text" onMouseEnter={onMousehandler}
+              onMouseLeave={onMouseleave}>
           <img src={calc6} alt="calc" />
           <h1>Get Paid</h1>
           <span>The IRS will process the credit and mail you a check(s).</span>

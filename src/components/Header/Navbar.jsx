@@ -3,6 +3,7 @@ import "./Navbar.css";
 import ert from "../../assets/images/ert.png";
 import { onMousehandler } from "../Helper/onmouse";
 import { onMouseleave } from "../Helper/onmouseleave";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -92,33 +93,46 @@ const Navbar = () => {
             </svg>
 
             <div className={`Hamburger-menyu ${active && "active"}`}>
-
               <div className="closing-burger">
-              <svg
-                onClick={() => {
-                  setActive(!active);
-                }}
-                xmlns="http://www.w3.org/2000/svg"
-                width="18"
-                height="16"
-                viewBox="0 0 18 16"
-                fill="none"
-              >
-                <rect width="18" height="2" fill="#0A083A" />
-                <rect y="7" width="18" height="2" fill="#0A083A" />
-                <rect y="14" width="18" height="2" fill="#0A083A" />
-              </svg>
+                <svg
+                  onClick={() => {
+                    setActive(!active);
+                  }}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="16"
+                  viewBox="0 0 18 16"
+                  fill="none"
+                >
+                  <rect width="18" height="2" fill="#0A083A" />
+                  <rect y="7" width="18" height="2" fill="#0A083A" />
+                  <rect y="14" width="18" height="2" fill="#0A083A" />
+                </svg>
               </div>
-                <div className="restoree">
-                <span>Home</span>
-                <span>About Us</span>
-                <span> Partnerships</span>
-                <span>FAQs</span>
-                <span>Contact</span>
-                <span>Sign up</span>
+              <div className="restoree">
+                <Link to="/">
+                  <span>Home</span>
+                </Link>
+                <Link to="/About">
+                  {" "}
+                  <span>About Us</span>
+                </Link>
+                <Link to="/Partnerships">
+                  {" "}
+                  <span> Partnerships</span>
+                </Link>
+                <Link to="/">
+                  {" "}
+                  <span>Faqs</span>
+                </Link>
+                <Link to="/Contact">
+                  <span>Contact</span>
+                </Link>
+                <Link to="/Contact">
+                  {" "}
+                  <span>Sign up</span>
+                </Link>
               </div>
-           
-              
             </div>
           </div>
 

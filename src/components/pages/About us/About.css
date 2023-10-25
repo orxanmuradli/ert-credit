@@ -413,6 +413,25 @@
   line-height: 20px;
   letter-spacing: -0.28px;
 }
+@media only screen and (max-width: 1230px){
+
+  .about-start-right span {
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+  }
+  .team-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    margin-top: 92px;
+}
+
+}
+
+
+
 
 @media only screen and (max-width: 991px) {
   /* .employe-start {
@@ -515,6 +534,8 @@
 }
  .about-start-right span {
   font-size: 12px;
+  display: flex;
+  width: 100%;
 }
 
 .about-start-right {
@@ -758,6 +779,8 @@
   }
   .about-start-right span {
     font-size: 12px;
+    display: flex;
+    width: 255px;
   }
   .employe-start-left h2 {
     font-size: 28px;

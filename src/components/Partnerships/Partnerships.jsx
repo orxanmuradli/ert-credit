@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Partnerships.css";
 import asads from "../../assets/images/asads.png";
 import help1 from "../../assets/icons/help1.png";
@@ -10,8 +10,46 @@ import velo from "../../assets/icons/velo.png";
 import help7 from "../../assets/icons/help7.png";
 import bullet from "../../assets/icons/bullet.png";
 import bullet2 from "../../assets/icons/bullet2.png";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+
+
+
+
 const Partnerships = () => {
-  return (
+  useEffect(() => {
+    const elements1 = document.querySelectorAll(".Help-wrapper");
+    const elements2 = document.querySelectorAll(".Help-wrapper");
+
+    let tl = gsap.timeline();
+    elements1.forEach((item, index) => {
+      console.log(item);
+      tl.to(item, {
+        y: 0,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: item,
+          scrub: true,
+          end: "+=100",
+        },
+      });
+    });
+    elements2.forEach((item, index) => {
+      console.log(item);
+      tl.to(item, {
+        y: 0,
+        stagger: 0.2,
+        scrollTrigger: {
+          trigger: item,
+          scrub: true,
+          end: "+=100",
+        },
+      });
+    });
+  });
+ return (
     <section className="parterships-wrapper container">
       <div className="parterships-container">
         <img src={asads} alt="" />
